@@ -167,7 +167,7 @@
 //                     href="#contact" 
 //                     className={`w-full py-3 px-6 rounded-md font-medium text-center block transition-all duration-300 border-2 ${pkg.buttonClass} flex items-center justify-center`}
 //                   >
-//                     SELECT PLAN
+//                     GET IN TOUCH
 //                     <ChevronRight className="ml-1 h-4 w-4" />
 //                   </Link>
 //                 </motion.div>
@@ -401,10 +401,10 @@ export default function Packages() {
 
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }} transition={{ duration: 0.2 }}>
                   <Link
-                    href="#contact"
+                    href="https://wa.me/923472807194"
                     className={`w-full py-3 px-6 rounded-lg font-medium text-center block text-white transition-all duration-300 ${pkg.buttonClass}`}
                   >
-                    SELECT PLAN
+                    GET IN TOUCH
                   </Link>
                 </motion.div>
               </div>

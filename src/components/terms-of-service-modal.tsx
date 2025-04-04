@@ -176,11 +176,11 @@ export default function TermsOfServiceModal({ isOpen, onClose }: TermsOfServiceM
                   <h3 className="text-lg font-bold text-white mb-3">11. Contact Information</h3>
                   <p>If you have any questions about these Terms, please contact us at:</p>
                   <p className="mt-2">
-                    <strong className="text-teal">Email:</strong> legal@weboradigital.com
+                    <strong className="text-teal">Email:</strong> saleswebora@gmail.com
                     <br />
-                    <strong className="text-teal">Phone:</strong> +1 (555) 123-4567
+                    <strong className="text-teal">Phone:</strong> +92 334 1234567
                     <br />
-                    <strong className="text-teal">Address:</strong> 123 Innovation Street, Tech City, TC 10101
+                    <strong className="text-teal">Address:</strong> Karachi, Sindh, Pakistan
                   </p>
                 </section>
 

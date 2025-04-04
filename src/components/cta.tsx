@@ -73,7 +73,7 @@ export default function CTA() {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
-              Let's work together to create innovative digital solutions that drive growth and engagement for your
+              Let&apos;s work together to create innovative digital solutions that drive growth and engagement for your
               business.
             </motion.p>
             <motion.div
@@ -87,7 +87,7 @@ export default function CTA() {
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
-                <Link href="#contact" className="btn-accent">
+                <Link href="https://wa.me/923472807194" className="btn-accent">
                   Get Started Today
                 </Link>
               </motion.div>

@@ -38,7 +38,7 @@ export default function Testimonials() {
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">What Our Clients Say</h2>
           <p className="text-light-gray/80">
-            Don't just take our word for it. Here's what our clients have to say about working with us.
+            Don&apos;t just take our word for it. Here&apos;s what our clients have to say about working with us.
           </p>
         </div>
 
@@ -53,11 +53,13 @@ export default function Testimonials() {
                   <Star
                     key={i}
                     size={18}
-                    className={`${i < testimonial.rating ? "text-sunset-orange fill-sunset-orange" : "text-gray-500"} mr-1`}
+                    className={`${
+                      i < testimonial.rating ? "text-sunset-orange fill-sunset-orange" : "text-gray-500"
+                    } mr-1`}
                   />
                 ))}
               </div>
-              <p className="text-light-gray/80 mb-6">"{testimonial.content}"</p>
+              <p className="text-light-gray/80 mb-6">&quot;{testimonial.content}&quot;</p>
               <div className="flex items-center">
                 <div className="relative w-12 h-12 rounded-full overflow-hidden mr-4">
                   <Image

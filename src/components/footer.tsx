@@ -43,15 +43,15 @@ export default function Footer() {
   const contactInfo = [
     {
       icon: <MapPin className="text-teal mr-3 mt-1 flex-shrink-0" size={18} />,
-      text: "123 Innovation Street, Tech City, TC 10101",
+      text: "Karachi, Sindh, Pakistan",
     },
     {
       icon: <Phone className="text-teal mr-3 flex-shrink-0" size={18} />,
-      text: "+1 (555) 123-4567",
+      text: "+92 334 1234567",
     },
     {
       icon: <Mail className="text-teal mr-3 flex-shrink-0" size={18} />,
-      text: "info@weboradigital.com",
+      text: "saleswebora@gmail.com",
     },
   ]
 
