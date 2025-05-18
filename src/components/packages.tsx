@@ -401,7 +401,7 @@ export default function Packages() {
 
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }} transition={{ duration: 0.2 }}>
                   <Link
-                    href="https://wa.me/923472807194"
+                    href="https://wa.me/12898728256"
                     className={`w-full py-3 px-6 rounded-lg font-medium text-center block text-white transition-all duration-300 ${pkg.buttonClass}`}
                   >
                     GET IN TOUCH

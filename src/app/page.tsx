@@ -1,11 +1,10 @@
 "use client"
 
 import { useEffect } from "react"
-import Hero from "@/components/hero"
-import Features from "@/components/features"
 import Services from "@/components/services"
-import Packages from "@/components/packages"
+import POSSolutions from "@/components/pos-solutions"
 import CTA from "@/components/cta"
+import Hero from "@/components/hero"
 
 export default function Home() {
   // Smooth scrolling for anchor links
@@ -35,11 +34,9 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Features />
       <Services />
-      <Packages />
+      <POSSolutions />
       <CTA />
     </>
   )
 }
-

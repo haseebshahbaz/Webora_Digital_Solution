@@ -199,9 +199,9 @@ export default function PrivacyPolicyModal({
                     <strong className="text-teal">Email:</strong>{" "}
                     saleswebora@gmail.com
                     <br />
-                    <strong className="text-teal">Phone:</strong> +92 334 1234567
+                    <strong className="text-teal">Phone:</strong> +1 (289) 872-8256
                     <br />
-                    <strong className="text-teal">Address:</strong> Karachi, Sindh, Pakistan
+                    <strong className="text-teal">Address:</strong> 1243 Ronald Inche Drive, Oshawa, Ontario, L1K 0Y5, Canada.
                   </p>
                 </section>
 

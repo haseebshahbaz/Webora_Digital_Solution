@@ -14,18 +14,23 @@ body {
 }
 
 @layer base {
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-poppins font-bold;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-poppins font-bold text-light-gray;
   }
 
   p {
-    @apply font-sans; /* Changed from font-inter to font-sans */
+    @apply font-sans text-light-gray/80;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-teal hover:bg-teal/90 text-white font-medium py-3 px-6 rounded-md transition-all duration-300;
+    @apply bg-teal hover:bg-teal/90 text-charcoal font-medium py-3 px-6 rounded-md transition-all duration-300;
   }
 
   .btn-secondary {
@@ -33,7 +38,7 @@ body {
   }
 
   .btn-accent {
-    @apply bg-sunset-orange hover:bg-sunset-orange/90 text-white font-medium py-3 px-6 rounded-md transition-all duration-300;
+    @apply bg-sunset-orange hover:bg-sunset-orange/90 text-light-gray font-medium py-3 px-6 rounded-md transition-all duration-300;
   }
 
   .section-padding {

@@ -32,22 +32,22 @@ export default function Footer() {
   ]
 
   const serviceLinks = [
-    { name: "Business Marketing", href: "#services" },
+    { name: "App Development", href: "#services" },
     { name: "Website Development", href: "#services" },
-    { name: "Logo Designing", href: "#services" },
-    { name: "Google Marketing", href: "#services" },
+    { name: "Graphic Designing", href: "#services" },
+    { name: "Social Media Marketing", href: "#services" },
     { name: "Social Media Handling", href: "#services" },
-    { name: "Accounting & Financing", href: "#services" },
+    { name: "SEO Services", href: "#services" },
   ]
 
   const contactInfo = [
     {
       icon: <MapPin className="text-teal mr-3 mt-1 flex-shrink-0" size={18} />,
-      text: "Karachi, Sindh, Pakistan",
+      text: "1243 Ronald Inche Drive, Oshawa, Ontario, L1K 0Y5, Canada.",
     },
     {
       icon: <Phone className="text-teal mr-3 flex-shrink-0" size={18} />,
-      text: "+92 334 1234567",
+      text: "+1 (289) 872-8256",
     },
     {
       icon: <Mail className="text-teal mr-3 flex-shrink-0" size={18} />,

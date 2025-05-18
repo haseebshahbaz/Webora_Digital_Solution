@@ -4,7 +4,7 @@ import { Inter, Poppins, Montserrat } from "next/font/google"
 import "./globals.css"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-import LogoPreloader from "@/components/logo-preloader"
+// import LogoPreloader from "@/components/logo-preloader"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -41,7 +41,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${poppins.variable} ${montserrat.variable} font-sans bg-charcoal text-light-gray`}
       >
-        <LogoPreloader />
+        {/* <LogoPreloader /> */}
         <Navbar />
         <main>{children}</main>
         <Footer />
