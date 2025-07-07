@@ -7,7 +7,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion"
-import Logo from "../assets/Website Logo.png"
+import Logo from "../assets/Vintage_Retro_Automotive_Garage_Service_Badge_Logo-removebg-preview.png"
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)

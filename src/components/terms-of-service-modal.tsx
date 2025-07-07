@@ -175,17 +175,18 @@ export default function TermsOfServiceModal({ isOpen, onClose }: TermsOfServiceM
                 <section>
                   <h3 className="text-lg font-bold text-white mb-3">11. Contact Information</h3>
                   <p>If you have any questions about these Terms, please contact us at:</p>
-                  <p className="mt-2">
-                    <strong className="text-teal">Email:</strong> saleswebora@gmail.com
+                 <p className="mt-2">
+                    <strong className="text-teal">Email:</strong>{" "}
+                    info@webora-inc.com
                     <br />
-                    <strong className="text-teal">Phone:</strong> +1 (289) 872-8256
+                    <strong className="text-teal">Phone:</strong> +1 (289) 374-0626
                     <br />
-                    <strong className="text-teal">Address:</strong> 1243 Ronald Inche Drive, Oshawa, Ontario, L1K 0Y5, Canada
+                    <strong className="text-teal">Address:</strong> 981 Main St W Hamilton ontario , L8s 1a8.
                   </p>
                 </section>
 
                 <p className="mt-6 text-light-gray/60 text-sm">
-                  <strong>Last Updated:</strong> April 3, 2025
+                  <strong>Last Updated:</strong> July 7, 2025
                 </p>
               </div>
             </motion.div>

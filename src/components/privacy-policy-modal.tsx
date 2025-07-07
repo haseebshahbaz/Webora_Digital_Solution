@@ -197,11 +197,11 @@ export default function PrivacyPolicyModal({
                   </p>
                   <p className="mt-2">
                     <strong className="text-teal">Email:</strong>{" "}
-                    saleswebora@gmail.com
+                    info@webora-inc.com
                     <br />
-                    <strong className="text-teal">Phone:</strong> +1 (289) 872-8256
+                    <strong className="text-teal">Phone:</strong> +1 (289) 374-0626
                     <br />
-                    <strong className="text-teal">Address:</strong> 1243 Ronald Inche Drive, Oshawa, Ontario, L1K 0Y5, Canada.
+                    <strong className="text-teal">Address:</strong> 981 Main St W Hamilton ontario , L8s 1a8.
                   </p>
                 </section>
 
@@ -215,7 +215,7 @@ export default function PrivacyPolicyModal({
                     on this page and updating the &quot;Last Updated&quot; date.
                   </p>
                   <p className="mt-3">
-                    <strong>Last Updated:</strong> April 3, 2025
+                    <strong>Last Updated:</strong> July 7, 2025
                   </p>
                 </section>
               </div>

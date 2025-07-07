@@ -186,7 +186,7 @@ export default function ServiceModal({ isOpen, onClose, title, description, pack
                           </ul>
 
                           <motion.a
-                            href="https://wa.me/12898728256"
+                            href="https://wa.me/12893740626"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={`w-full py-2 px-4 rounded-lg font-medium text-center block ${colors.bg} text-light-gray hover:opacity-90 transition-all duration-300`}

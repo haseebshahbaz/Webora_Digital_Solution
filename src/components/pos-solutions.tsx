@@ -35,7 +35,7 @@ const posPartners: POSPartner[] = [
       "Advanced reporting",
     ],
     primaryColor: "teal",
-    whatsappNumber: "923472807194", // Replace with your actual WhatsApp number
+    whatsappNumber: "12893740626", // Replace with your actual WhatsApp number
   },
   {
     id: "elavon",
@@ -52,7 +52,7 @@ const posPartners: POSPartner[] = [
       "24/7 customer support",
     ],
     primaryColor: "sunset-orange",
-    whatsappNumber: "12898728256", // Replace with your actual WhatsApp number
+    whatsappNumber: "12893740626", // Replace with your actual WhatsApp number
   },
 ]
 

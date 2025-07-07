@@ -154,14 +154,14 @@ const services: Service[] = [
     packages: [
       {
         name: "Basic",
-        price: "$150",
+        price: "$200",
         features: [
           { name: "2 Social Media Platforms", included: true },
           { name: "8 Posts Per Month", included: true },
           { name: "Basic Content Strategy", included: true },
           { name: "Monthly Performance Report", included: true },
+          { name: "Paid Advertising", included: true },
           { name: "Community Management", included: false },
-          { name: "Paid Advertising", included: false },
           { name: "Influencer Outreach", included: false },
           { name: "Competitor Analysis", included: false },
         ],

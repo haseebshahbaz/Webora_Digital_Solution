@@ -5,7 +5,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react"
 import { motion, useScroll, useTransform } from "framer-motion"
-import Logo from "../assets/Website Logo.png"
+import Logo from "../assets/Vintage_Retro_Automotive_Garage_Service_Badge_Logo-removebg-preview.png"
 import PrivacyPolicyModal from "./privacy-policy-modal"
 import TermsOfServiceModal from "./terms-of-service-modal"
 
@@ -17,9 +17,9 @@ export default function Footer() {
   const opacity = useTransform(scrollYProgress, [0.8, 1], [0, 1])
 
   const socialLinks = [
-    { icon: <Facebook size={18} />, href: "#", label: "Facebook" },
+    { icon: <Facebook size={18} />, href: "https://www.facebook.com/share/19NvsXjj5V/?mibextid=wwXIfr", label: "Facebook" },
     { icon: <Twitter size={18} />, href: "#", label: "Twitter" },
-    { icon: <Instagram size={18} />, href: "#", label: "Instagram" },
+    { icon: <Instagram size={18} />, href: "https://www.instagram.com/webora_inc?igsh=MWNnYzYwcHRoenhvMA==", label: "Instagram" },
     { icon: <Linkedin size={18} />, href: "#", label: "LinkedIn" },
   ]
 
@@ -43,15 +43,15 @@ export default function Footer() {
   const contactInfo = [
     {
       icon: <MapPin className="text-teal mr-3 mt-1 flex-shrink-0" size={18} />,
-      text: "1243 Ronald Inche Drive, Oshawa, Ontario, L1K 0Y5, Canada.",
+      text: "981 Main St W Hamilton ontario , L8s 1a8",
     },
     {
       icon: <Phone className="text-teal mr-3 flex-shrink-0" size={18} />,
-      text: "+1 (289) 872-8256",
+      text: "+1 (289) 374 0626",
     },
     {
       icon: <Mail className="text-teal mr-3 flex-shrink-0" size={18} />,
-      text: "saleswebora@gmail.com",
+      text: "info@webora-inc.com",
     },
   ]
 
