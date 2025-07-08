@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react"
+import { Facebook, Instagram, Mail, Phone, MapPin } from "lucide-react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import Logo from "../assets/Vintage_Retro_Automotive_Garage_Service_Badge_Logo-removebg-preview.png"
 import PrivacyPolicyModal from "./privacy-policy-modal"
@@ -18,9 +18,9 @@ export default function Footer() {
 
   const socialLinks = [
     { icon: <Facebook size={18} />, href: "https://www.facebook.com/share/19NvsXjj5V/?mibextid=wwXIfr", label: "Facebook" },
-    { icon: <Twitter size={18} />, href: "#", label: "Twitter" },
+    // { icon: <Twitter size={18} />, href: "#", label: "Twitter" },
     { icon: <Instagram size={18} />, href: "https://www.instagram.com/webora_inc?igsh=MWNnYzYwcHRoenhvMA==", label: "Instagram" },
-    { icon: <Linkedin size={18} />, href: "#", label: "LinkedIn" },
+    // { icon: <Linkedin size={18} />, href: "#", label: "LinkedIn" },
   ]
 
   const quickLinks = [

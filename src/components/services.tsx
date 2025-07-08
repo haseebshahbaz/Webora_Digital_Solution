@@ -176,7 +176,7 @@ const services: Service[] = [
           { name: "Advanced Content Strategy", included: true },
           { name: "Bi-weekly Performance Reports", included: true },
           { name: "Community Management", included: true },
-          { name: "Paid Advertising ($100 Budget)", included: true },
+          { name: "Paid Advertising", included: true },
           { name: "Influencer Outreach", included: false },
           { name: "Competitor Analysis", included: false },
         ],
