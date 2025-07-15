@@ -87,7 +87,7 @@ export default function CTA() {
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
-                <Link href="https://wa.me/12893740626" className="btn-accent">
+                <Link href="https://wa.me/12894061165" className="btn-accent">
                   Get Started Today
                 </Link>
               </motion.div>

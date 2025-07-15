@@ -47,7 +47,7 @@ export default function Footer() {
     },
     {
       icon: <Phone className="text-teal mr-3 flex-shrink-0" size={18} />,
-      text: "+1 (289) 374 0626",
+      text: "+1 (289) 406 1165"  
     },
     {
       icon: <Mail className="text-teal mr-3 flex-shrink-0" size={18} />,

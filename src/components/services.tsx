@@ -37,166 +37,162 @@ interface Service {
 
 // Services data
 const services: Service[] = [
-  {
-    id: "web-dev",
-    title: "Website Development",
-    description: "Professional and responsive websites tailored to meet your business needs.",
-    image: WebDev.src,
-    packages: [
-      {
-        name: "Basic",
-        price: "$300",
-        features: [
-          { name: "4 Page Professional Website", included: true },
-          { name: "4 Banner Design & 5 Stock Images", included: true },
-          { name: "Setup of Social Page", included: true },
-          { name: "Contact Form & Google Map Integration", included: true },
-          { name: "Fully Responsive Design", included: true },
-          { name: "Business Page Setup", included: false },
-          { name: "E-Commerce Integration", included: false },
-          { name: "User Authentication", included: false },
-          { name: "SEO Optimization", included: false },
-        ],
-      },
-      {
-        name: "Standard",
-        price: "$500",
-        popular: true,
-        features: [
-          { name: "6 Page Custom-Responsive Website", included: true },
-          { name: "7 Banner Designs & 8 Stock Images", included: true },
-          { name: "Setup of Social Page", included: true },
-          { name: "Contact Form & Google Map Integration", included: true },
-          { name: "Fully Responsive Design", included: true },
-          { name: "Business Page Setup", included: true },
-          { name: "E-Commerce Integration", included: true },
-          { name: "User Authentication", included: true },
-          { name: "SEO Optimization", included: false },
-        ],
-      },
-      {
-        name: "Premium",
-        price: "$999",
-        features: [
-          { name: "10-12 Custom Pages", included: true },
-          { name: "5 Custom Banners & 8 Stock Images", included: true },
-          { name: "Setup of Social Page", included: true },
-          { name: "Contact Form & Google Map Integration", included: true },
-          { name: "Fully Responsive Design", included: true },
-          { name: "Business Page Setup", included: true },
-          { name: "E-Commerce Integration", included: true },
-          { name: "User Authentication", included: true },
-          { name: "SEO Optimization", included: true },
-          { name: "Online Payment Setup", included: true },
-        ],
-      },
-    ],
-  },
-  {
-    id: "graphic-design",
-    title: "Graphic Designing",
-    description: "Creative and impactful designs that represent your brand identity effectively.",
-    image: GraphicDesign.src,
-    packages: [
-      {
-        name: "Basic",
-        price: "$300",
-        features: [
-          { name: "Logo Design (3 Concepts)", included: true },
-          { name: "Business Card Design", included: true },
-          { name: "Social Media Profile Setup", included: true },
-          { name: "Basic Brand Guidelines", included: true },
-          { name: "1 Revision Round", included: true },
-          { name: "Letterhead & Envelope Design", included: false },
-          { name: "Social Media Templates", included: false },
-          { name: "Marketing Materials", included: false },
-          { name: "Brand Style Guide", included: false },
-        ],
-      },
-      {
-        name: "Standard",
-        price: "$500",
-        popular: true,
-        features: [
-          { name: "Logo Design (5 Concepts)", included: true },
-          { name: "Business Card Design", included: true },
-          { name: "Social Media Profile Setup", included: true },
-          { name: "Comprehensive Brand Guidelines", included: true },
-          { name: "3 Revision Rounds", included: true },
-          { name: "Letterhead & Envelope Design", included: true },
-          { name: "Social Media Templates (5)", included: true },
-          { name: "Marketing Materials", included: false },
-          { name: "Brand Style Guide", included: false },
-        ],
-      },
-      {
-        name: "Premium",
-        price: "$999",
-        features: [
-          { name: "Logo Design (8 Concepts)", included: true },
-          { name: "Business Card Design", included: true },
-          { name: "Social Media Profile Setup", included: true },
-          { name: "Comprehensive Brand Guidelines", included: true },
-          { name: "Unlimited Revision Rounds", included: true },
-          { name: "Letterhead & Envelope Design", included: true },
-          { name: "Social Media Templates (10)", included: true },
-          { name: "Marketing Materials", included: true },
-          { name: "Complete Brand Style Guide", included: true },
-        ],
-      },
-    ],
-  },
-  {
-    id: "social-marketing",
-    title: "Social Media Marketing",
-    description: "Strategic marketing campaigns to increase visibility and drive engagement on social platforms.",
-    image: SocialMarketing.src,
-    packages: [
-      {
-        name: "Basic",
-        price: "$200",
-        features: [
-          { name: "2 Social Media Platforms", included: true },
-          { name: "8 Posts Per Month", included: true },
-          { name: "Basic Content Strategy", included: true },
-          { name: "Monthly Performance Report", included: true },
-          { name: "Paid Advertising", included: true },
-          { name: "Community Management", included: false },
-          { name: "Influencer Outreach", included: false },
-          { name: "Competitor Analysis", included: false },
-        ],
-      },
-      {
-        name: "Standard",
-        price: "$300",
-        popular: true,
-        features: [
-          { name: "4 Social Media Platforms", included: true },
-          { name: "16 Posts Per Month", included: true },
-          { name: "Advanced Content Strategy", included: true },
-          { name: "Bi-weekly Performance Reports", included: true },
-          { name: "Community Management", included: true },
-          { name: "Paid Advertising", included: true },
-          { name: "Influencer Outreach", included: false },
-          { name: "Competitor Analysis", included: false },
-        ],
-      },
-      {
-        name: "Premium",
-        price: "$750",
-        features: [
-          { name: "All Major Social Platforms", included: true },
-          { name: "30 Posts Per Month", included: true },
-          { name: "Comprehensive Content Strategy", included: true },
-          { name: "Weekly Performance Reports", included: true },
-          { name: "24/7 Community Management", included: true },
-          { name: "Paid Advertising ($300 Budget)", included: true },
-          { name: "Influencer Outreach & Management", included: true },
-          { name: "Detailed Competitor Analysis", included: true },
-        ],
-      },
-    ],
-  },
+{
+  "id": "web-dev",
+  "title": "Website Development",
+  "description": "Professional and responsive websites tailored to meet your business needs.",
+  "image": WebDev.src,
+  "packages": [
+    {
+      "name": "Basic",
+      "price": "$299",
+      "features": [
+        { "name": "4 Pages Website", "included": true },
+        { "name": "4 Banner Design & 5 Stock Images", "included": true },
+        { "name": "Setup of Social Page", "included": true },
+        { "name": "Contact Form & Map Integration", "included": true },
+        { "name": "Responsive Design", "included": true },
+        { "name": "Business Page Setup", "included": false },
+        { "name": "E-Commerce Fusing", "included": false },
+        { "name": "User Authentication", "included": false },
+        { "name": "SEO Optimization", "included": false }
+      ]
+    },
+    {
+      "name": "Standard",
+      "price": "$499",
+      "popular": true,
+      "features": [
+        { "name": "6 Pages Website", "included": true },
+        { "name": "7 Banner Design & 8 Stock Images", "included": true },
+        { "name": "Setup Social Page", "included": true },
+        { "name": "Contact Form & Map Integration", "included": true },
+        { "name": "Responsive Design", "included": true },
+        { "name": "Business Page Setup", "included": true },
+        { "name": "E-Commerce Fusing", "included": true },
+        { "name": "User Authentication", "included": true },
+        { "name": "SEO Optimization", "included": false }
+      ]
+    },
+    {
+      "name": "Premium",
+      "price": "$999",
+      "features": [
+        { "name": "10-12 Custom Pages", "included": true },
+        { "name": "5 Custom Banners & 8 Stock Images", "included": true },
+        { "name": "Setup Social Pages", "included": true },
+        { "name": "Contact Form & Map Integration", "included": true },
+        { "name": "Business Page Setup", "included": true },
+        { "name": "E-Commerce Fusing", "included": true },
+        { "name": "User Authentication", "included": true },
+        { "name": "SEO Optimization", "included": true }
+      ]
+    }
+  ]
+}
+,
+{
+  "id": "graphic-design",
+  "title": "Graphic Designing",
+  "description": "Creative and impactful designs that represent your brand identity effectively.",
+  "image": GraphicDesign.src,
+  "packages": [
+    {
+      "name": "Basic",
+      "price": "$299",
+      "features": [
+        { "name": "Logo Design (3 Concept)", "included": true },
+        { "name": "Business Card Design", "included": true },
+        { "name": "Social Media Profile Setup", "included": true },
+        { "name": "Basic Brand Guidelines", "included": true },
+        { "name": "1 Revision Round", "included": true },
+        { "name": "Letterhead & Envelope Design", "included": false },
+        { "name": "Social Media Templates", "included": false },
+        { "name": "Marketing Materials", "included": false },
+        { "name": "Complete Branding", "included": false }
+      ]
+    },
+    {
+      "name": "Standard",
+      "price": "$499",
+      "popular": true,
+      "features": [
+        { "name": "Logo Design (5 Concept)", "included": true },
+        { "name": "Business Card Design", "included": true },
+        { "name": "Social Media Profile Setup", "included": true },
+        { "name": "Comprehensive Brand Guidelines", "included": true },
+        { "name": "3 Revision Rounds", "included": true },
+        { "name": "Letterhead & Envelope Design", "included": true },
+        { "name": "Social Media Templates (5)", "included": true },
+        { "name": "Marketing Materials", "included": false },
+        { "name": "Complete Branding", "included": false }
+      ]
+    },
+    {
+      "name": "Premium",
+      "price": "$999",
+      "features": [
+        { "name": "Everything in Standard", "included": true },
+        { "name": "Logo Design (8 Concept)", "included": true },
+        { "name": "Unlimited Revision Rounds", "included": true },
+        { "name": "Social Media Templates (10)", "included": true },
+        { "name": "Marketing Materials", "included": true },
+        { "name": "Complete Branding", "included": true }
+      ]
+    }
+  ]
+}
+,
+{
+  "id": "social-marketing",
+  "title": "Social Media Marketing",
+  "description": "Strategic marketing campaigns to increase visibility and drive engagement on social platforms.",
+  "image": SocialMarketing.src,
+  "packages": [
+    {
+      "name": "Basic",
+      "price": "$200",
+      "features": [
+        { "name": "8 Posts Per Month", "included": true },
+        { "name": "2 Platforms & Marketing", "included": true },
+        { "name": "Content Creation", "included": true },
+        { "name": "Keyword Research", "included": true },
+        { "name": "Account Management", "included": true },
+        { "name": "50+ Keyword Research", "included": false },
+        { "name": "1000 Increase in Followers", "included": false },
+        { "name": "80+ Keyword Research", "included": false }
+      ]
+    },
+    {
+      "name": "Standard",
+      "price": "$300",
+      "popular": true,
+      "features": [
+        { "name": "12 Posts Per Month", "included": true },
+        { "name": "2 Platforms", "included": true },
+        { "name": "Content Creation & Marketing", "included": true },
+        { "name": "50+ Keyword Research", "included": true },
+        { "name": "Account Management", "included": false },
+        { "name": "1000 Increase in Followers", "included": false },
+        { "name": "80+ Keyword Research", "included": false }
+      ]
+    },
+    {
+      "name": "Premium",
+      "price": "$500",
+      "features": [
+        { "name": "16 Posts Per Month", "included": true },
+        { "name": "2 Platforms", "included": true },
+        { "name": "1000 Increase in Followers", "included": true },
+        { "name": "Content Creation & Marketing", "included": true },
+        { "name": "80+ Keyword Research", "included": true },
+        { "name": "Account Management", "included": false },
+        { "name": "50+ Keyword Research", "included": false }
+      ]
+    }
+  ]
+}
+,
   {
     id: "social-handling",
     title: "Social Media Management",

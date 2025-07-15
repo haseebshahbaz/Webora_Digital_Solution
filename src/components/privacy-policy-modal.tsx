@@ -199,7 +199,7 @@ export default function PrivacyPolicyModal({
                     <strong className="text-teal">Email:</strong>{" "}
                     info@webora-inc.com
                     <br />
-                    <strong className="text-teal">Phone:</strong> +1 (289) 374-0626
+                    <strong className="text-teal">Phone:</strong> +1 (289) 406 1165
                     <br />
                     <strong className="text-teal">Address:</strong> 981 Main St W Hamilton ontario , L8s 1a8.
                   </p>
