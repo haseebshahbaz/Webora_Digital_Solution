@@ -113,7 +113,7 @@ export default function PackageCard({ name, price, features, popular, index }: P
         </ul>
 
         <motion.a
-          href="https://wa.me/12898728256"
+          href="https://wa.me/12894061165"
           target="_blank"
           rel="noopener noreferrer"
           className={`w-full py-2 px-4 rounded-lg font-medium text-center block ${colors.bg} text-light-gray hover:opacity-90 transition-all duration-300`}
